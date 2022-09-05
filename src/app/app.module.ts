@@ -15,6 +15,7 @@ import { CalendarComponent } from './calendar/calendar.component';
 import { GastosMesComponent } from './gastos-mes/gastos-mes.component';
 import { IngresosMesComponent } from './ingresos-mes/ingresos-mes.component';
 import { DashboardSubComponent } from './dashboard-sub/dashboard-sub.component';
+import { FormRegistroActComponent } from './form-registro-act/form-registro-act.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { DashboardSubComponent } from './dashboard-sub/dashboard-sub.component';
     CalendarComponent,
     GastosMesComponent,
     IngresosMesComponent,
-    DashboardSubComponent
+    DashboardSubComponent,
+    FormRegistroActComponent
   ],
   imports: [
     BrowserModule,
